@@ -1,0 +1,13 @@
+C:\Users\Hewlett Packard\Documents\GitHub\RJJF4\Proyec.v1\Proyec.v1\bin\Release\Proyec.v1.exe.config
+C:\Users\Hewlett Packard\Documents\GitHub\RJJF4\Proyec.v1\Proyec.v1\bin\Release\Proyec.v1.exe
+C:\Users\Hewlett Packard\Documents\GitHub\RJJF4\Proyec.v1\Proyec.v1\bin\Release\Proyec.v1.pdb
+C:\Users\Hewlett Packard\Documents\GitHub\RJJF4\Proyec.v1\Proyec.v1\obj\Release\Proyec.v1.csprojAssemblyReference.cache
+C:\Users\Hewlett Packard\Documents\GitHub\RJJF4\Proyec.v1\Proyec.v1\obj\Release\Proyec.v1.crudCliente.resources
+C:\Users\Hewlett Packard\Documents\GitHub\RJJF4\Proyec.v1\Proyec.v1\obj\Release\Proyec.v1.crudTroquel.resources
+C:\Users\Hewlett Packard\Documents\GitHub\RJJF4\Proyec.v1\Proyec.v1\obj\Release\Proyec.v1.crudUsuarios.resources
+C:\Users\Hewlett Packard\Documents\GitHub\RJJF4\Proyec.v1\Proyec.v1\obj\Release\Proyec.v1.fmPrincipal.resources
+C:\Users\Hewlett Packard\Documents\GitHub\RJJF4\Proyec.v1\Proyec.v1\obj\Release\Proyec.v1.FmLogin.resources
+C:\Users\Hewlett Packard\Documents\GitHub\RJJF4\Proyec.v1\Proyec.v1\obj\Release\Proyec.v1.Properties.Resources.resources
+C:\Users\Hewlett Packard\Documents\GitHub\RJJF4\Proyec.v1\Proyec.v1\obj\Release\Proyec.v1.csproj.GenerateResource.cache
+C:\Users\Hewlett Packard\Documents\GitHub\RJJF4\Proyec.v1\Proyec.v1\obj\Release\Proyec.v1.exe
+C:\Users\Hewlett Packard\Documents\GitHub\RJJF4\Proyec.v1\Proyec.v1\obj\Release\Proyec.v1.pdb

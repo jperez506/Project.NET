@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{88921B98-A6D7-4F99-8EAA-56F38DA28524}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Proyec.v1</RootNamespace>
+    <AssemblyName>Proyec.v1</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseRJJFDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BaseRJJFDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaCliente.Designer.cs">
+      <DependentUpon>ConsultaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaTroqueles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaTroqueles.Designer.cs">
+      <DependentUpon>ConsultaTroqueles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultaUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultaUsuarios.Designer.cs">
+      <DependentUpon>ConsultaUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="crudCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crudCliente.Designer.cs">
+      <DependentUpon>crudCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="crudTroquel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crudTroquel.Designer.cs">
+      <DependentUpon>crudTroquel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="crudTroquel22.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crudTroquel22.Designer.cs">
+      <DependentUpon>crudTroquel22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Entidades\Cliente.cs" />
+    <Compile Include="Entidades\TipoEstado.cs" />
+    <Compile Include="Entidades\TipoUsuario.cs" />
+    <Compile Include="Entidades\Troquel.cs" />
+    <Compile Include="Entidades\Usuario.cs" />
+    <Compile Include="FmPrinciaplModificador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmPrinciaplModificador.Designer.cs">
+      <DependentUpon>FmPrinciaplModificador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmPrincipal.Designer.cs">
+      <DependentUpon>FmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="crudUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="crudUsuarios.Designer.cs">
+      <DependentUpon>crudUsuarios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmLogin.Designer.cs">
+      <DependentUpon>FmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FmPrincipalConsultor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FmPrincipalConsultor.Designer.cs">
+      <DependentUpon>FmPrincipalConsultor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ConsultaCliente.resx">
+      <DependentUpon>ConsultaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaTroqueles.resx">
+      <DependentUpon>ConsultaTroqueles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultaUsuarios.resx">
+      <DependentUpon>ConsultaUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crudCliente.resx">
+      <DependentUpon>crudCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crudTroquel.resx">
+      <DependentUpon>crudTroquel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crudTroquel22.resx">
+      <DependentUpon>crudTroquel22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="crudUsuarios.resx">
+      <DependentUpon>crudUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmPrinciaplModificador.resx">
+      <DependentUpon>FmPrinciaplModificador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmPrincipal.resx">
+      <DependentUpon>FmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmLogin.resx">
+      <DependentUpon>FmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FmPrincipalConsultor.resx">
+      <DependentUpon>FmPrincipalConsultor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="BaseRJJFDataSet.xsc">
+      <DependentUpon>BaseRJJFDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BaseRJJFDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BaseRJJFDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BaseRJJFDataSet.xss">
+      <DependentUpon>BaseRJJFDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
